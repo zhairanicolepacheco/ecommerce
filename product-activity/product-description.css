@@ -1,0 +1,273 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #d8ecff;
+	font-family: sans-serif;
+	display: grid;
+	align-content: flex-start;
+	justify-items: center;
+	height: 100vh;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_bar {
+    background-color: white;
+    width: 70%;
+    height: 4.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw;
+}
+
+/* logo */
+#logo-bar {
+    display: flex;
+    gap: 1vw;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: start;
+}
+
+#logo {
+    width: 2vw;
+    height: 2vw;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.8vw;
+    font-weight: 100;
+    color: #bb0000;
+    padding: 0;
+    margin: 0;
+}
+
+/* menu buttons */
+#btn-container {
+    display: flex;
+    gap: 1vw;
+}
+
+.btn {
+    height: 2vw;
+    width: 5vw;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.btn:hover {
+    border-bottom: .2vw solid #999999;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    font-size: .8vw;
+}
+
+#cart {
+    width: 1.5vw;
+    height: 1.5vw;
+    padding: 0;
+    margin: 0;
+}
+
+.cart {
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#cart:hover {
+    opacity: 50%;
+}
+
+#profile {
+    width: 2.1vw;
+    height: 2.1vw;
+    padding: 0;
+    margin: 0;
+}
+
+.user {
+    background-color: white;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 1vw;;
+}
+
+.signup {
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 2vw;
+    margin: .7vw;
+    display: grid;
+    align-content: center;
+	justify-items: center;
+}
+
+h2 {
+    padding: 0;
+    margin:0 0 .5vw 0;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+#option {
+    display: flex;
+	align-self: center;
+	justify-content: center;
+    margin:.5vw;
+}
+
+#signIn {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: .7vw;
+    font-weight: 200;
+}
+
+#and {
+    padding-left: .3vw;
+    margin: 0;
+    color: black;
+    font-size: .7vw;
+    font-weight: 200;
+}
+
+#noAcc {
+    padding-left: .3vw;
+    margin: 0;
+    color: #007BDB;
+    font-size: .7vw;
+    font-weight: 200;
+}
+
+#form_container {
+    display: grid;
+    align-content: center;
+	justify-items: center;
+    gap: .5vw;
+    margin: 1vw;
+    width: 64vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+	justify-content: start;
+    gap: 5vw;
+}
+
+input {
+	background-color: none;
+	border: none;
+	width: 20vw;
+	font-family: sans-serif;
+	font-size: .8vw;;
+	text-align: left;
+	padding: .8vw;
+}
+
+textarea.area {
+	background-color: none;
+	border: none;
+	width: 20vw;
+    height: auto;
+	font-family: sans-serif;
+	font-size: .8vw;;
+	text-align: left;
+	padding: .8vw;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.add-to-cart {
+    padding: .8vw;
+    margin: 0;
+    background-color: #C10000;
+    cursor: pointer; 
+	width: 20vw;
+    text-align: center;
+    border: none;
+	border-radius: .5vw;
+	color: white;
+    font-weight: bold;
+    font-size: .8vw;
+}
+
+.add-to-cart:hover {
+    background-color: #850000;
+}
+
+.button-container {
+	display: grid;
+    align-content: center;
+	justify-items: center;
+	margin: 0;
+}
+
+#logIn {
+    padding: 0;
+    margin: 0;
+    color:  #007BDB;
+    font-size: 1vw;
+}
+
+#user {
+    padding-left: .3vw;
+    margin: 0;
+    color: #007BDB;
+    font-size: 1vw;
+}
+
+img.item {
+    width: 15vw;
+    height: 20vw;
+	object-fit: cover;
+}
+
+div.field-container {
+    display: grid;
+    align-content: center;
+	justify-items: center;
+}
+
+div.image-container {
+    width: 15vw;
+    height: 20vw;
+}
+
+label {
+    font-size: .8vw;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    color: #850000;
+}
